@@ -1,3 +1,8 @@
+'''Deploy a Flask application that will allow a user to provide
+a text string which will then be analyzed to determine which emotion amongst a set of 5
+is the most likely emotion being conveyed by the given text.
+'''
+
 from flask import Flask, render_template, request
 from EmotionDetection.emotion_detection import emotion_detector
 
